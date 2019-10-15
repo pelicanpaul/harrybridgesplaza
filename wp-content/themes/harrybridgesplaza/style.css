@@ -1,0 +1,306 @@
+/*
+ Theme Name:   Harry Bridges Plaza
+ Theme URI:    https://harrybridgesplaza.org
+ Description:  Twenty Seventeen Child Theme
+ Author:       Paul Lyons
+ Author URI:   https://harrybridgesplaza.org
+ Template:     twentyseventeen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  sf-journal
+*/
+
+
+#primary .entry-content {
+    max-width: 900px;
+}
+
+
+@media screen and (min-width: 48em) {
+    .main-navigation a {
+        padding: 1em 1.25em;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 100;
+
+    }
+}
+
+h1, h2{
+    padding: 0 0 0;
+}
+
+.page .panel-content .entry-title, .page-title, body.page:not(.twentyseventeen-front-page) .entry-title {
+    font-size: 42px;
+    font-weight: 100;
+}
+
+#woocommerce_products-3 > ul > li {
+    padding: 1.5em 1em;
+    margin-right: 20px;
+    float: left;
+    width: 30%;
+    height: auto;
+    background-color: #fff;
+}
+
+body.page.home .site-branding {
+    background-image: none;
+}
+
+body.page .site-branding {
+    background-image: url(http://localhost:1939/wp-content/uploads/2019/10/header-short2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+}
+
+body:not(.twentyseventeen-front-page) .entry-content {
+    margin-left: 0;
+}
+
+#post-8 > div > div > header {
+    display: none;
+}
+
+#post-8 > div > div > div > form > div > input[type=image]:nth-child(7) {
+    width: 250px;
+}
+
+/*body.page .wp-custom-header {
+    display: none;
+}*/
+
+.single-featured-image-header {
+    background-color: #e6e6e6;
+    border-bottom: 1px solid #eee;
+}
+
+#woocommerce_products-3 > ul.product_list_widget {
+    display: flex;
+}
+
+#woocommerce_products-3 > ul.product_list_widget li {
+ /*   display: flex;*/
+}
+
+.woocommerce ul.product_list_widget li img{
+    float: none;
+    margin-bottom: 20px;
+}
+
+#woocommerce_products-3 > ul > li > a > span.product-title {
+    font-size: 18px;
+    color: #111;
+}
+#woocommerce_products-3 > ul > li > span.amount {
+    display: block;
+    margin-top: 20px;
+    font-size: 12px;
+}
+
+body.archive.category #primary .entry-content {
+    float: none;
+    width: 100%;
+    display: none;
+}
+
+
+
+.site-footer .widget .product_list_widget img, .widget .product_list_widget img {
+    display: block;
+}
+
+body:not(.title-tagline-hidden) .site-branding-text {
+    display: inline-block;
+    vertical-align: middle;
+    border-top: 1px solid rgba(255,255,255, 0.8);
+    border-bottom: 1px solid rgba(255,255,255, 0.8);
+    padding-bottom: 4px;
+}
+
+
+
+
+.panel-content {
+    position: relative;
+    background-color: #ececec;
+}
+
+body.has-header-image .site-description, body.has-header-video .site-description {
+    color: #fff;
+    opacity: 1;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 2px;
+    margin-top: 5px;
+}
+
+/*// settings*/
+
+@media screen and (min-width: 30em) {
+    h2, .home.blog .entry-title, .page .panel-content .recent-posts .entry-title {
+        font-size: 36px;
+    }
+}
+
+.custom-logo-link img {
+    display: inline-block;
+    max-height: 125px;
+    width: 276px;
+    height: 108px;
+}
+
+
+h2 {
+    font-size: 36px;
+    color: #111;
+}
+
+
+
+h2.small {
+    font-size: 24px;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #333;
+    border-color: #333;
+}
+
+.btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: 1rem 2.75rem;
+    font-size: 1rem;
+    line-height: 1;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    text-decoration: none;
+}
+
+.btn:hover {
+    color: #fff !important;
+    text-decoration: none  !important;
+    box-shadow: none !important;
+}
+
+form.cart {
+    margin-bottom: 30px;
+}
+
+button {
+    line-height: 1 !important;
+}
+
+.btn-small {
+    padding: .5rem 1.75rem;
+    font-size: .75rem;
+}
+
+.container-button-home {
+    margin: 20px 0 40px;
+    clear: both;
+    text-align: center;
+}
+
+@media screen and (min-width: 30em) {
+    .page-one-column .panel-content .wrap {
+        max-width: 1400px;
+    }
+    .wrap {
+        max-width: 1400px;
+        padding-left: 3em;
+        padding-right: 3em;
+    }
+
+    .navigation-top .wrap {
+        max-width: 1400px;
+    }
+
+    .single-post:not(.has-sidebar) #primary, .page.page-one-column:not(.twentyseventeen-front-page) #primary, .archive.page-one-column:not(.has-sidebar) .page-header, .archive.page-one-column:not(.has-sidebar) #primary {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 1400px;
+    }
+}
+
+.navigation-top, .site-footer  {
+    background: #eee;
+}
+
+
+
+.entry-content p {
+    line-height: 1.75;
+}
+
+.colors-dark h3.red {
+    color: #c00;
+}
+
+.colors-dark h3.tight {
+    margin: 0 0 4px;
+}
+
+.colors-dark h3.yellow {
+    color: #fc0;
+}
+
+.white {
+    color: #fff !important;
+}
+
+#primary .entry-content {
+    float: none;
+    width: 100%;
+}
+
+.widget ul li ul {
+    padding: 0;
+    position: relative;
+    margin: 10px 0;
+}
+
+body.page-template-default.page-id-8627 #primary .entry-content {
+    float: none;
+    width: 100%;
+    max-width: 800px;
+    margin-left: 0;
+}
+
+#container-quotes blockquote{
+    font-size: 32px;
+}
+
+#container-quotes blockquote:nth-child(odd){
+    color: #c00;
+}
+
+.site-info {
+    display: none;
+}
+
+
+@media screen and (max-width: 820px){
+    body:not(.title-tagline-hidden) .site-branding-text {
+        padding-top: 4px;
+    }
+
+    h2 {
+        font-family: 'Abril Fatface', cursive;
+        font-size: 24px;
+        color: #111;
+        border-bottom: 1px solid #999;
+    }
+}
