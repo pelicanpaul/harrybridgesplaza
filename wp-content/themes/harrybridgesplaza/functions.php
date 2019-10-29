@@ -9,6 +9,12 @@ function my_theme_enqueue_styles() {
 		array( $parent_style ),
 		wp_get_theme()->get('Version')
 	);
+
+	wp_enqueue_style('pure-css', '/wp-content/themes/harrybridgesplaza/pure-min.css');
+
 }
 add_action( 'wp_enqueue_scripts', 'my_theme_enqueue_styles' );
+
+
+
 ?>

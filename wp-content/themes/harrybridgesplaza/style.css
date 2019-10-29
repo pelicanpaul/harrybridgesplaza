@@ -13,8 +13,12 @@
 */
 
 
-#primary .entry-content {
+/*#primary .entry-content {
     max-width: 900px;
+}*/
+
+.pure-g img {
+    margin: 20px 50px 0;
 }
 
 
@@ -279,17 +283,48 @@ body.page-template-default.page-id-8627 #primary .entry-content {
     margin-left: 0;
 }
 
+/*#container-quotes {
+    max-width: 900px;
+}*/
+
 #container-quotes blockquote{
     font-size: 32px;
+    max-width: 900px;
 }
 
 #container-quotes blockquote:nth-child(odd){
     color: #c00;
 }
 
+p.lead {
+    font-size: 32px;
+    color: #c00;
+}
+.black {
+   color: #000 !important;
+}
+
+.entry-content hr {
+background-color: #e6e6e6;
+    border: 0;
+    height: 1px;
+
+    margin: 40px 0;
+}
+
+
+
 .site-info {
     display: none;
 }
+.paypal-donations {
+    text-align: center;
+}
+
+.paypal-donations input[type="image"]{
+    width: 300px;
+}
+
 
 
 @media screen and (max-width: 820px){
