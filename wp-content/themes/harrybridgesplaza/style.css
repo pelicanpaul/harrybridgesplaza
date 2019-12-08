@@ -312,6 +312,16 @@ background-color: #e6e6e6;
     margin: 40px 0;
 }
 
+ul.columns-two {
+    column-count: 2;
+    column-rule: none;
+    list-style-type: none;
+}
+
+ul.columns-two li {
+    margin: 10px 0;
+}
+
 
 
 .site-info {
@@ -337,5 +347,21 @@ background-color: #e6e6e6;
         font-size: 24px;
         color: #111;
         border-bottom: 1px solid #999;
+    }
+
+    ul.columns-two {
+        column-count: 1;
+        column-rule: none;
+        list-style-type: none;
+    }
+
+    #container-quotes blockquote{
+        font-size: 22px;
+    }
+
+
+
+    p.lead {
+        font-size: 22px;
     }
 }

@@ -21,14 +21,13 @@
 
 	<link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
 
-	<link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/sf-journal/icons/apple-touch-icon.png">
-	<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/sf-journal/icons/favicon-32x32.png">
-	<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/sf-journal/icons/favicon-16x16.png">
-	<link rel="manifest" href="https://sfjournal.net//wp-content/themes/sf-journal/icons/site.webmanifest">
-	<link rel="mask-icon" href="/wp-content/themes/sf-journal/icons/safari-pinned-tab.svg" color="#cd2b2b">
-	<meta name="msapplication-TileColor" content="#da532c">
+	<link rel="apple-touch-icon" sizes="180x180" href="/wp-content/themes/harrybridgesplaza/icons/apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/themes/harrybridgesplaza/icons/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/themes/harrybridgesplaza/icons/favicon-16x16.png">
+	<link rel="manifest" href="/wp-content/themes/harrybridgesplaza/icons/site.webmanifest">
+	<link rel="mask-icon" href="/wp-content/themes/harrybridgesplaza/icons/safari-pinned-tab.svg" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#483b34">
 	<meta name="theme-color" content="#ffffff">
-
 <?php wp_head(); ?>
 </head>
 
